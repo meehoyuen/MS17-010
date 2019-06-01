@@ -10,6 +10,7 @@ This repository is for public my work on MS17-010. I have no plan to do any supp
  * **eternalblue_exploit8.py** Eternalblue exploit for windows 8/2012 x64
  * **eternalblue_poc.py** Eternalblue PoC for buffer overflow bug
  * **eternalblue_kshellcode_x64.asm** x64 kernel shellcode for my Eternalblue exploit. This shellcode should work on Windows Vista and later
+nasm -f bin eternalblue_kshellcode_x64.asm
  * **eternalblue_kshellcode_x86.asm** x86 kernel shellcode for my Eternalblue exploit. This shellcode should work on Windows Vista and later
  * **eternalblue_sc_merge.py** Script for merging eternalblue x86 and x64 shellcode. Eternalblue exploit, that support both x86 and x64, with merged shellcode has no need to detect a target architecture
  * **eternalchampion_leak.py** Eternalchampion PoC for leaking info part
